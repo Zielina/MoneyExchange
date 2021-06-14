@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "0f73615b-5383-4bb7-9f28-1b19f9e23935",
+		"name": "exchange-currencies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "convertMoney",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"source\" : \"usd\",\r\n    \"target\" : \"gbp\",\r\n    \"value\" : 30\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{addressMoneyConvert}}/convertMoney",
+					"host": [
+						"{{addressMoneyConvert}}"
+					],
+					"path": [
+						"convertMoney"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
