@@ -2,8 +2,8 @@ package presenter.business.layer.service
 
 import presenter.business.layer.exchange.cache.ExchangeEuroRateCurrencyCache
 import presenter.business.layer.exchange.cache.ExchangeQueryRateCurrencyCache
-import presenter.business.layer.exchange.common.proportiest.ExchangeAvailableCurrencyValidation
-import presenter.business.layer.exchange.common.proportiest.ExternalServiceCredentials
+import presenter.business.layer.exchange.common.proporties.ExchangeAvailableCurrencyValidation
+import presenter.business.layer.exchange.common.proporties.ExternalServiceCredentials
 import presenter.business.layer.exchange.gateway.ExchangeGateway
 import presenter.business.layer.exchange.model.ExchangeCurrencyResponse
 import presenter.business.layer.exchange.model.SearchExchangeCurrencyRequest

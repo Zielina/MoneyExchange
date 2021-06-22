@@ -1,6 +1,6 @@
 package presenter.business.layer.validation
 
-import presenter.business.layer.exchange.common.proportiest.ExchangeAvailableCurrencyValidation
+import presenter.business.layer.exchange.common.proporties.ExchangeAvailableCurrencyValidation
 import presenter.business.layer.exchange.exception.ValidationException
 import presenter.business.layer.exchange.model.SearchExchangeCurrencyRequest
 import presenter.business.layer.exchange.validation.Validation

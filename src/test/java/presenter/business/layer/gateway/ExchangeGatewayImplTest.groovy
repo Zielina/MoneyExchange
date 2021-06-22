@@ -4,7 +4,7 @@ import org.springframework.http.HttpStatus
 import org.springframework.web.client.HttpClientErrorException
 import org.springframework.web.client.HttpServerErrorException
 import org.springframework.web.client.RestTemplate
-import presenter.business.layer.exchange.common.proportiest.ExternalServiceCredentials
+import presenter.business.layer.exchange.common.proporties.ExternalServiceCredentials
 import presenter.business.layer.exchange.gateway.ExchangeGateway
 import presenter.business.layer.exchange.gateway.ExchangeGatewayImpl
 import presenter.business.layer.exchange.model.SearchExchangeCurrencyRequest
